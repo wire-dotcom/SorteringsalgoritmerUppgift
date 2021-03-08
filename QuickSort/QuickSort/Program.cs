@@ -35,10 +35,10 @@ namespace QuickSort
            tsQuick.Milliseconds / 10);
             Console.WriteLine("QuickTime tid: " + elapsedTimeQuick);
 
-            foreach(int x in tallistaSorterad)
+            /*foreach(int x in tallistaSorterad)
             {
                 Console.WriteLine(x);
-            }
+            }*/
         }
         static List<int> QuickSort(List<int> lst)
         {
